@@ -9,10 +9,8 @@
     (let [spatula       (inc (index-of-biggest v))
           on-spatula    (take spatula v)
           under-spatula (drop spatula v)
-          nv            (vec (reverse (concat (reverse on-spatula)
-                                              under-spatula)))]
-      (conj (pancake-sort (pop nv))
-            (peek nv)))))
-
-
+          nv            (reverse (concat (reverse on-spatula)
+                                              under-spatula))]
+      (concat (pancake-sort (butlast nv))
+              (list (last nv))))))
 
