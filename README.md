@@ -1,5 +1,9 @@
 # pancake-sort
 
+coding-exercise-clojure-pancake-sort
+
+[![Build Status](https://travis-ci.org/pokle/coding-exercise-clojure-pancake-sort.svg?branch=master)](https://travis-ci.org/pokle/coding-exercise-clojure-pancake-sort)
+
 My clojure implementation of a pancake sort.
 
 Imagine you have a stack of pancakes, and you want to sort them,
