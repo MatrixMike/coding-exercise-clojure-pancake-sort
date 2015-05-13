@@ -9,3 +9,6 @@ but all you have is a spatula that can be inserted into the stack
 and can flip all the pancakes above it.
 
 http://austingwalters.com/everyday-algorithms-pancake-sort/
+
+----
+[My other coding exercises](https://github.com/search?q=user%3Apokle+coding-exercise)
